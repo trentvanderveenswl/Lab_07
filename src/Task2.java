@@ -18,5 +18,15 @@ public class Task2 {
             }
             System.out.println();
         }
+
+        System.out.println();
+
+        // Pattern 3: 5 rows of 5 stars each
+        for (int i = 1; i <= 5; i++) {
+            for (int j = 1; j <= 5; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
 }
